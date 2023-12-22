@@ -1,0 +1,56 @@
+
+body{
+    height: 5000px;
+    background-image: url("Screenshot\ \(52\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+   }
+   
+   
+   div{
+     background-color: #16101066;
+     height: 300px;
+     text-align: center;
+     color: #f0f8ff8c;
+     font-size: 100px;
+     margin-bottom: 50px;
+   }
+   img{
+   width: 150px;
+   height: 150px;
+   margin: 30px;
+   border-radius: 50%;
+   }
+   div>h2{
+     font-size: 50px;
+   }
+   h1{
+    font-size: 10pc;
+}
+   a{
+     text-decoration: none;
+     color: #b5aaaa70;
+    cursor:copy;
+   }
+   a:link>img {
+    color: blue;
+    }
+    a:visited>img {
+    color: red;
+    }a:active >img{
+    background-color: #FFFF00;
+    }a:hover{
+    color: orange;
+    font-style: italic;
+    transform: scale(1.5);
+    transition:  2000ms ;
+    }
+   img:hover{
+    transform: scale(1.5);
+    transition:  1000ms ;
+    margin-right: 6pc;
+                border: 20px dashed;
+   }
+   
