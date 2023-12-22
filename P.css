@@ -1,0 +1,49 @@
+*{
+    font-size: 40px;
+}
+body{
+    
+    background-image: url(za.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+form{
+    /* background-color: red;   */
+    width: 600px;
+    text-align: center;
+    /* box-shadow: 0 0 80px rgba(255, 0, 0,0.1); */
+    margin-left: 450px;
+        /* border:dotted 10px ; */
+
+
+}
+div>img{
+    width: 400px;
+    height: 250px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+div{
+        text-align: center; 
+        background-color:wheat;  
+        background-image: url(s.jpg);
+        border: solid;
+        box-shadow: 0 0 80px rgba(255, 0, 0,0.1);
+        height: 600px;
+}
+strong{
+        font-family:cursive;
+        word-spacing: 4px;
+        color: rgba(0, 0, 0, 0.247);
+        font-size: large;
+
+}
+strong:hover{
+    font-size: 70px;
+}
+div:hover img{
+    border-radius: 100pc;
+    transform: scale(0.6);
+    transition: 1500ms;
+}
